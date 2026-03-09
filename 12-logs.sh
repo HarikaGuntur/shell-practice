@@ -23,7 +23,7 @@ fi
 
 
 dnf install nginx -y $>> $LOG_FILE
-validate $? "installing nginx"
+Validate $? "installing nginx"
 
 dnf install mysql -y$ >> $LOG_FILE
 Validate $? "installing mysql"
