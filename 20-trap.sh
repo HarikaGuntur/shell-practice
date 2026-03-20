@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # this will be checking for errors if errors it will exit 
  
-trap 'echo "There is an error in $LINENO, Command: $BASH_COMMAND"' ERR
+ trap 'echo "There is an error in $LINENO, Command: $BASH_COMMAND"' ERR
 
 USERID=$(id -u)
 LOGS_FOLDER="/var/log/shell-script"
